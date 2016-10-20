@@ -215,9 +215,9 @@ class StartQT4(QtGui.QMainWindow, Ui_Dialog):
         path = '"'+self.ui.lineEdit.text()+'"'
 
         # QMessageBox.about(self, path, path);
-    # os.system("storj -k koteczek7 upload-file ")
-        storjcommand = str(' storj -k koteczek7 upload-file 57b4b6d7af035fde12cf544e ' + path)
-        #storjcommand = u' '.join((' storj -k koteczek7 upload-file 57b4b6d7af035fde12cf544e ', path)).encode('utf-8').strip()
+    # os.system("storj -k xxxxxxx upload-file ")
+        storjcommand = str(' storj -k xxxxxx upload-file 57b4b6d7af035fde12cf544e ' + path)
+        #storjcommand = u' '.join((' storj -k xxxxxxx upload-file 57b4b6d7af035fde12cf544e ', path)).encode('utf-8').strip()
 
       #  p= os.Popen(storjcommand, stdout=subprocess.PIPE, shell=True)
     # (out, err) = proc.communicate()
